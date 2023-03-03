@@ -1,15 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap");
 
 @media screen and (min-width: 968px) {
-  :root {
-    --big-font-size: 3rem;
-    --h1-font-size: 2.25rem;
-    --h2-font-size: 1.5rem;
-    --h3-font-size: 1.25rem;
-    --normal-font-size: 1rem;
-    --small-font-size: 0.875rem;
-    --smaller-font-size: 0.813rem;
-  }
 }
 
 * {
@@ -585,5 +576,125 @@ img {
 }
 
 .contact_subtitle {
-  font-size: ;
+  font-size: 15px;
+}
+
+.contact_content {
+  background-color: #d7c7c5;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1rem 0.25rem;
+}
+
+.contact_label {
+  font-size: 15px;
+  color: #b5a2a8;
+}
+
+.contact_input {
+  width: 100%;
+  background-color: #d7c7c5;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  padding: 0.25rem 0.5rem 0;
+}
+
+.footer {
+  padding-top: 2rem;
+}
+
+.footer_container {
+  row-gap: 3.5rem;
+}
+
+.footer_bg {
+  background-color: #d7c7c5;
+  padding: 2rem 0 3rem;
+}
+
+.footer_title {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.footer_subtitle {
+  font-size: 15px;
+}
+
+.footer_links {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+}
+
+.footer_link:hover {
+  color: white;
+}
+
+.footer_social {
+  font-size: 1.25rem;
+  margin-right: 13px;
+}
+
+.footer_social:hover {
+  color: white;
+}
+
+.footer_copy {
+  font-size: 10px;
+  text-align: center;
+  color: #b5a2a8;
+  margin-top: 10px;
+}
+
+.footer_title,
+.footer_subtitle,
+.footer_link,
+.footer_social {
+  color: #b5a2a8;
+}
+
+.active-link {
+  color: #8d818f;
+}
+
+.scroll-header {
+  box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+}
+
+.scrollup {
+  position: fixed;
+  right: 1rem;
+  bottom: -20%;
+  background-color: #8d818f;
+  opacity: 0.8;
+  padding: 0 0.3rem;
+  z-index: 100;
+  transition: 0.4s;
+  border-radius: 0.4rem;
+}
+
+.scrollup:hover {
+  background-color: #b5a2a8;
+}
+
+.scrollup_icon {
+  font-size: 1.5rem;
+  color: #d7c7c5;
+}
+
+.show-scroll {
+  bottom: 5rem;
+}
+
+--webkit-scrollbar {
+  width: 0.6rem;
+  background-color: #8d818f;
+  border-radius: 0.5rem;
+}
+
+--webkit-scrollbar-thumb {
+  background-color: #5f6376;
 }
